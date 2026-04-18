@@ -1,0 +1,9 @@
+export const AUDIO_CONFIG = {
+  DEFAULT_FFT_SIZE: 2048,
+  SMOOTHING_TIME_CONSTANT: 0.8,
+  BANDS: {
+    BASS: { MIN: 20, MAX: 250 },
+    MID: { MIN: 250, MAX: 2000 },
+    TREBLE: { MIN: 2000, MAX: 16000 }
+  }
+};
